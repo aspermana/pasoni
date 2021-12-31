@@ -149,7 +149,7 @@
             "Reset Jump if Profit": "0.1",
             "Mode": [
                 {
-                    "Name": "Satu",
+                    "Name": "1",
                     "Status": "ON",
                     "Base": "0.00000100",
                     "If Win": "1.15",
@@ -170,7 +170,7 @@
                     }
                 },
                 {
-                    "Name": "Dua",
+                    "Name": "2",
                     "Status": "ON",
                     "Base": "0.00000100",
                     "If Win": "1",
@@ -191,7 +191,7 @@
                     }
                 },
                 {
-                    "Name": "Tiga",
+                    "Name": "3",
                     "Status": "On",
                     "Base": "0.00000100",
                     "If Win": "1",
@@ -209,7 +209,70 @@
                         "Win Streak": "0",
                         "Lose Streak": "0",
                         "After Profit": "0.00000700"
+                   }
+                 },
+                  {
+                    "Name": "4",
+                    "Status": "ON",
+                    "Base": "0.00000100",
+                    "If Win": "1.15",
+                    "If Lose": "1",
+                    "Reset if profit": "0",
+                    "Reset if win": "3",
+                    "Reset if lose": "0",
+                    "Reset if maxbet": "0",
+                    "Chance": {
+                        "Min": "90",
+                        "Max": "92"
+                    },
+                    "Kondisi Jump": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0"
                     }
+                },
+                {
+                    "Name": "5",
+                    "Status": "ON",
+                    "Base": "0.00000100",
+                    "If Win": "1",
+                    "If Lose": "1.05",
+                    "Reset if profit": "0.00000001",
+                    "Reset if win": "0",
+                    "Reset if lose": "0",
+                    "Reset if maxbet": "0",
+                    "Chance": {
+                        "Min": "5",
+                        "Max": "7"
+                    },
+                    "Kondisi Jump": {
+                        "After Bet": "0",
+                        "Win Streak": "1",
+                        "Lose Streak": "5",
+                        "After Profit": "0"
+                    }
+                },
+                {
+                    "Name": "6",
+                    "Status": "On",
+                    "Base": "0.00000100",
+                    "If Win": "1",
+                    "If Lose": "2",
+                    "Reset if profit": "0.00000200",
+                    "Reset if win": "3",
+                    "Reset if lose": "0",
+                    "Reset if maxbet": "0",
+                    "Chance": {
+                        "Min": "42",
+                        "Max": "45"
+                    },
+                    "Kondisi Jump": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "0",
+                        "After Profit": "0.00000700"
+                  } 
                 }
             ]
         }
